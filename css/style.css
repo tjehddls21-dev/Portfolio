@@ -451,7 +451,8 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto; 
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -8431,6 +8432,11 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8); }
+
+  .slider-text .create {
+    font-size:11px;
+    color:gray;
+  }
   .slider-text p strong {
     font-weight: 700; }
     .slider-text p strong a {
@@ -9177,7 +9183,9 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(62, 100, 255, 0); } }
 
 .heading-section {
-  position: relative; }
+  position: relative; 
+  margin-top:40px;
+}
   .heading-section .subheading {
     font-size: 13px;
     font-weight: 500;
